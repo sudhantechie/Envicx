@@ -30,38 +30,43 @@ To run this project, you'll need the following installed:
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/sudhantechie/Envicx.git
-cd Envicx
+  ```bash
+  git clone https://github.com/sudhantechie/Envicx.git
+  cd Envicx
+  ```
 
 ### 2. Node.js Dependencies
 
-```bash
-npm install
+ ```bash
+ npm install
+ ```
 
 ### 3. Ruby Dependencies
 
-```bash
-bundle install
+  ```bash
+  bundle install
+  ```
 
 ### 4. Build Frontend Assets
 
 After installing dependencies, you need to build the frontend files:
 
 #### Build JavaScript
-```bash
-npm run build:ts
+  ```bash
+  npm run build:ts
+  ```
 
 #### Build CSS
 To generate the CSS file using TailwindCSS, run the following command:
 
-```bash
-npm run build:css
+  ```bash
+  npm run build:css
+  ```
 
 ### 5. Run the Application
 
-```bash
-npm start
-
+  ```bash
+  npm start
+  ```
 The application will run on http://localhost:4567.
 
